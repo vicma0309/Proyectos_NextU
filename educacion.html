@@ -1,10 +1,76 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Documento sin título</title>
-</head>
-
-<body>
-</body>
+ <head>
+   <meta charset="UTF-8">
+   <title>Documento sin título</title>
+ </head>
+ <body>
+   <header>
+		 <svg >
+			 <image xlink:href="img/logo1.svg" width="150" height="100"></image>
+		 </svg>
+		 <h1>Curriculum Vitae</h1>
+		 	<h2>Datos personales</h2>
+		 		<h3>Nombre: Victor Manuel Huerta Avelar </h3>
+		 		<h3>Fecha de Nacimiento: 03-Septiembre-1993</h3>
+		 		<h3>Lugar de Nacimiento: Ciudad de México</h3>
+	 </header>
+	 <nav>
+		 <a href="./index.html">Pagina Principal</a>
+		 l
+		 <a href="experiencia.html">Experiencia</a>
+	 </nav>
+   <section>
+     <h2>Educación</h2>
+     <table border="1">
+       <thead>
+         <tr>
+           <th>Año</th>
+           <th>Institución</th>
+           <th>lugar</th>
+           <th>¿Culminó?</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>2015</td>
+           <td>Universidad del Valle de México</td>
+           <td>Coacalco, Estado de México</td>
+           <td>Si, Ingenieria en Sistemas Comp.</td>
+         </tr>
+         <tr>
+           <td>2015</td>
+           <td>Universidad del Valle de México</td>
+           <td>Coacalco, Estado de México</td>
+           <td>Si, Curso de CCNA R&S</td>
+         </tr>
+       </tbody>
+     </table>
+     <br>
+     <h3>Agregar Estudios</h3>
+     <form name="Estudios" autocomplete="on">
+       <label for="año">Año: </label>
+       <select>
+         <option>2018</option>
+         <option>2017</option>
+         <option>2016</option>
+         <option>2015</option>
+         <option>2014</option>
+         <option>2013</option>
+         <option>2012</option>
+       </select><br>
+       <label for="institucion">Institución: </label>
+       <input type="text" id="institucion" placeholder="UVM"><br>
+       <label for="lugar">Lugar: </label>
+       <textarea name="lugar" rows="2" cols="23" placeholder="Ingresa el lugar "></textarea><br><br>
+       <input type="submit" value="enviar">
+     </form>
+   </section>
+   <footer>
+     <h3>Contacto</h3>
+      <p><strong>Correo: </strong> vic_13org@hotmail.com</p>
+      <p><strong>Teléfono: </strong> (044) 5591673924</p>
+      <p><strong>Dirección: </strong> 2º Retorno felipe Vinicio mz.31 casa15, Estado de México</p>
+   </footer>
+ </body>
 </html>
